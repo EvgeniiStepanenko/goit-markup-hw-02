@@ -10,6 +10,7 @@
 	--white-color: #ffffff;
 	--black-color: #000000;
 	--button-hover-color: #188CE8;
+	--background-color: #2F303A;
 
 }
 body {
@@ -42,7 +43,7 @@ ul {
 
 }
 /* навігація */
-.site-nav {
+.site-nav .link {
 	color: var(--maine-text-color);
 }
 .site-nav .link:hover,
@@ -67,12 +68,15 @@ ul {
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
 		color: var(--white-color);
-		background-color: #2F303A;
+		background-color: var(--background-color);
 		
 }
 .button:hover ,
 .button:focus {
-	color:var(--button-hover-color)
+	    color:var(--white-color);
+	    background: #2196F3;
+		box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
+		border-radius: 4px;
 }
 .button {
 	    font-style: normal;
@@ -84,7 +88,7 @@ ul {
 		text-align: center;
 		letter-spacing: 0.06em;
 		cursor: pointer;
-		color: var(--white-color);
+		color: var(--maine-text-color);
 }
 
 /* наші переваги */
@@ -102,7 +106,6 @@ ul {
 }
 .list-item-title {
 	    font-style: normal;
-		font-weight: 700;
 		font-size: 14px;
 		line-height: 1.1428;
 		letter-spacing: 0.03em;
@@ -119,7 +122,6 @@ ul {
 /* чим ми займаємось */
 .work-title, .team-title {
 	    font-style: normal;
-		font-weight: 700;
 		font-size: 36px;
 		line-height: 1.1666;
 		text-align: center;
@@ -145,8 +147,22 @@ ul {
 	    color: var(--text-color);
 }
  /* футер */
+ .footer {
+	background: var(--background-color);
+ }
+.footer .logo-studio {
+	color: var(--white-color);
 
+}
  /* порфоліо */
  .description {
 	color: var(--text-color);
+ }
+
+ .project-title {
+	    font-style: normal;
+		font-size: 18px;
+		line-height: 2;
+	    letter-spacing: 0.06em;
+		color: var(--maine-text-color);
  }

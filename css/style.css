@@ -1,0 +1,78 @@
+/* колір основного тексту #212121 */
+/*  колір тексту #757575 */
+/* колір акценту #2196F3 */
+/* колір кнопки #188CE8 */
+
+:root {
+	--title-text-color: #212121;
+	--text-color: #757575;
+	--accent: #2196F3;
+	--white-color: #ffffff;
+	--black-color: #000000;
+	--button-hover-color: #188CE8;
+
+}
+body {
+	background-color: var(--white-color);
+}
+
+
+
+/* лого */
+.logo-web {
+	color: var(--accent);
+}
+.logo-studio {
+	color: var(--black-color)
+}
+/* навігація */
+.site-nav {
+	color: var(--title-text-color);
+}
+.site-nav .link:hover,
+.site-nav .link:focus {
+	color: var(--accent);
+}
+.contacts .link {
+	color: var(--text-color);
+}
+
+.contacts .link:hover ,
+.contacts .link:focus {
+	color: var(--accent);
+}
+/* герой */
+.hero-title {
+	color: var(--white-color)
+}
+.button:hover ,
+.button:focus {
+	color:var(--button-hover-color)
+}
+
+/* наші переваги */
+.benefits-title {
+	color: var(--title-text-color);
+}
+.benefits .list-title {
+	color: var(--title-text-color);
+}
+.benefits .text {
+	color: var(--text-color);
+}
+/* чим ми займаємось */
+.work-title {
+	color: var(--title-text-color);
+}
+/* команда */
+ .team-title {
+	color: var(--title-text-color);
+ }
+ .name {
+	color: var(--title-text-color);
+ }
+ .jobe-title {
+	color: var(--text-color);
+ }
+ /* футер */
+ 

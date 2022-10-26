@@ -4,7 +4,7 @@
 /* колір кнопки #188CE8 */
 
 :root {
-	--title-text-color: #212121;
+	--maine-text-color: #212121;
 	--text-color: #757575;
 	--accent: #2196F3;
 	--white-color: #ffffff;
@@ -14,6 +14,7 @@
 }
 body {
 	background-color: var(--white-color);
+	color: var(--maine-text-color);
 }
 
 
@@ -51,28 +52,12 @@ body {
 }
 
 /* наші переваги */
-.benefits-title {
-	color: var(--title-text-color);
-}
-.benefits .list-title {
-	color: var(--title-text-color);
-}
-.benefits .text {
+.text {
 	color: var(--text-color);
 }
 /* чим ми займаємось */
-.work-title {
-	color: var(--title-text-color);
-}
 /* команда */
- .team-title {
-	color: var(--title-text-color);
- }
- .name {
-	color: var(--title-text-color);
- }
- .jobe-title {
+.job-title {
 	color: var(--text-color);
- }
+}
  /* футер */
- 

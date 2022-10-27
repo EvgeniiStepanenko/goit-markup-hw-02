@@ -154,6 +154,15 @@ ul {
 	color: var(--white-color);
 
 }
+
+.map {
+	color: var(--white-color);
+}
+
+.mail,.tel {
+	color: rgba(255, 255, 255, 0.6);
+
+}
  /* порфоліо */
  .description {
 	color: var(--text-color);

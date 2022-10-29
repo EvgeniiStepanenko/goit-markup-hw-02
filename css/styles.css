@@ -15,15 +15,20 @@
 }
 body {
 	font-family: 'Roboto', sans-serif;
+	font-size: 14px;
+	letter-spacing: 0.03em;
 	background-color: var(--white-color);
+	margin: 0;
 	color: var(--maine-text-color);
 }
-a {
+.logo,.link {
 	text-decoration: none;
 }
 
-ul {
+.list-style{
 	list-style: none;
+	margin: 0;
+	padding: 0;
 }
 
 /* лого */
@@ -35,23 +40,29 @@ ul {
 }
 .logo {
 	    font-family: 'Raleway';
-		font-style: normal;
 		font-weight: 700;
 		font-size: 26px;
 		line-height: 1.1923;
-		letter-spacing: 0.03em;
+		
 
 }
 /* навігація */
 .site-nav .link {
-	color: var(--maine-text-color);
+	    font-weight: 500;
+		line-height: 1.1428;
+		letter-spacing: 0.02em;
+	    color: var(--maine-text-color);
+
 }
 .site-nav .link:hover,
 .site-nav .link:focus {
 	color: var(--accent);
 }
 .contacts-list .link {
-	color: var(--text-color);
+      	font-weight: 500;
+		line-height: 1.1428;
+		letter-spacing: 0.02em;
+		color: var(--text-color);
 }
 
 .contacts-list .link:hover ,
@@ -59,8 +70,10 @@ ul {
 	color: var(--accent);
 }
 /* герой */
+.hero {
+	background-color: var(--background-color);
+}
 .hero-title {
-	    font-style: normal;
 		font-weight: 900;
 		font-size: 44px;
 		line-height: 1.3636;
@@ -68,7 +81,7 @@ ul {
 		letter-spacing: 0.06em;
 		text-transform: uppercase;
 		color: var(--white-color);
-		background-color: var(--background-color);
+		
 		
 }
 .button:hover ,
@@ -79,7 +92,7 @@ ul {
 		border-radius: 4px;
 }
 .button {
-	    font-style: normal;
+	   
 		font-weight: 700;
 		font-size: 16px;
 		line-height: 1.875;
@@ -105,45 +118,38 @@ ul {
 	margin: -1px;
 }
 .list-item-title {
-	    font-style: normal;
 		font-size: 14px;
 		line-height: 1.1428;
-		letter-spacing: 0.03em;
 		text-transform: uppercase;
 }
 .text {
-	    font-style: normal;
-		font-weight: 400;
-		font-size: 14px;
+		
 		line-height: 1.7142;
-		letter-spacing: 0.03em;
+		
 	    color: var(--text-color);
 }
 /* чим ми займаємось */
 .work-title, .team-title {
-	    font-style: normal;
+	    
 		font-size: 36px;
 		line-height: 1.1666;
 		text-align: center;
-		letter-spacing: 0.03em;
+		
 }
 /* команда */
 .name {
-	    font-style: normal;
+	    
 		font-weight: 500;
 		font-size: 16px;
 		line-height: 1.1875;
 		text-align: center;
-		letter-spacing: 0.03em;
+		
 }
 
 .job-title {
-		font-style: normal;
-		font-weight: 400;
 		font-size: 16px;
 		line-height: 1.1875;
 		text-align: center;
-		letter-spacing: 0.03em;
 	    color: var(--text-color);
 }
  /* футер */
@@ -155,13 +161,20 @@ ul {
 
 }
 
-.map {
+.address .map {
 	color: var(--white-color);
 }
 
-.mail,.tel {
+.address .mail,
+.address .tel {
 	color: rgba(255, 255, 255, 0.6);
 
+}
+.address {
+	font-style: normal;
+	font-weight: 400;
+	
+	line-height: 1.7142;
 }
  /* порфоліо */
  .description {
@@ -169,7 +182,6 @@ ul {
  }
 
  .project-title {
-	    font-style: normal;
 		font-size: 18px;
 		line-height: 2;
 	    letter-spacing: 0.06em;

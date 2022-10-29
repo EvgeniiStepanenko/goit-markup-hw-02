@@ -180,6 +180,10 @@ body {
 	line-height: 1.7142;
 }
  /* порфоліо */
+ .list-style .list-card {
+	background: #FFFFFF;
+
+ }
  .description {
 	color: var(--text-color);
  }
